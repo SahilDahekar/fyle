@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fyle Github Assignment</title>
+</head>
+<body>
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- User Section -->
+        <section class="user-container">
+            <!-- Profile Image Container -->
+            <div class="img-container">
+                <img id="avatar" class="profile-img" src="" alt="Profile Photo">
+            </div>
+            <!-- User Details -->
+            <div class="user-details">
+                <h2 id="name">John Doe</h2>
+                <p id="bio">Bio goes here</p>
+                <p id="location">📍 Earth</p>
+                <p id="twitter_username">🐦 JohnDoe</p>
+                <p id="github">🔗 Github</p>
+            </div>
+        </section>
+
+        <!-- Repositories Section -->
+        <section class="repos-container">
+            <!-- Repositories Header -->
+            <div class="repos-header">
+                <h2 class="repo-title">Your Repositories</h2>
+                <!-- Per Page Select -->
+                <div>
+                    <label for="perPageSelect">Per Page :</label>
+                    <select id="perPageSelect">
+                       <option value="10">10</option>
+                       <option value="50">50</option>
+                       <option value="100">100</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Repositories Grid -->
+            <div id="repos" class="repo-grid">
+                <!-- Repositories will be dynamically added here -->
+            </div>
+            <!-- Pagination Container -->
+            <div class="pagination-container">
+                <button class="btn" id="prev-btn">Prev</button>
+                <div class="page-buttons">
+                    <!-- Page buttons will be dynamically added here -->
+                </div>
+                <button class="btn" id="next-btn">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript Script -->
+    <script src="main.js" type="module"></script>
+</body>
+</html>
