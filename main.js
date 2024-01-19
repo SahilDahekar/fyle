@@ -3,7 +3,7 @@
 import { TOKEN } from './config.js';
 
 //Base urls for github api
-const USER_URL = 'https://api.github.com/users/hkirat';
+const USER_URL = 'https://api.github.com/users/SahilDahekar';
 const BASE_URL = `${USER_URL}/repos`;
 
 //Global variables
